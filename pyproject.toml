@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "selenium-crawler"
+version = "0.1.0"
+description = ""
+authors = ["Kelvin Ng <hoishing@gmail.com>"]
+readme = "README.md"
+packages = [{include = "selenium_crawler"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ipykernel = "^6.19.2"
+selenium = "^4.7.2"
+webdriver-manager = "^3.8.5"
+pytesseract = "^0.3.10"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

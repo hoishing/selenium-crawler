@@ -1,0 +1,4 @@
+.ipynb_checkpoints/
+poetry.lock
+.venv
+.DS_Store
