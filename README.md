@@ -4,7 +4,7 @@
 
 > a web crawler written in python, powered by [Selenium][selenium] and [Tesseract OCR][pytesseract]
 
-# Motivation
+## Motivation
 
 In a project I need to collect the name and address of all dental laboratories in Taiwan. Unfortunately the [Ministry of Health and Welfare][mohw] doesn't provide a structured format(csv, json...etc) for download. The data only available as website tables having just 10 records each page... I got to crawl it without other fast and simple options.
 
